@@ -1,56 +1,55 @@
-<div align="center">
-<img width="50%" src="http://i3.ytimg.com/vi/tYKRAXIio28/maxresdefault.jpg"/>
 
+```markdown
 # Django & React Notes App
-</div>
 
-### Cloning the repository
+This project is a simple Notes App built using Django and React.
 
---> Clone the repository using the command below :
-```bash
-git clone https://github.com/SteveTomorrow/Notes-App.git
+## Features
 
-```
+- Create, edit, and delete notes.
+- Store notes with a title and content.
+- Responsive design for various screen sizes.
 
---> Move into the directory where we have the project files : 
-```bash
-cd Notes-App
+## Installation
 
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SteveTomorrow/Notes-App.git
+   ```
 
---> Create a virtual environment :
-```bash
-# If you are on Windows
-virtualenv env
-# If you are on Linux or Mac
-python -m venv env
-```
+2. Move into the project directory:
+   ```bash
+   cd Notes-App
+   ```
 
---> Activate the virtual environment :
-```bash
-# If you are on Windows
-.\env\Scripts\activate
-# If you are on Linux or Mac
-source env/bin/activate
-```
+3. Create a virtual environment (Windows):
+   ```bash
+   virtualenv env
+   .\env\Scripts\activate
+   ```
 
-#
+   Create a virtual environment (Linux/Mac):
+   ```bash
+   python -m venv env
+   source env/bin/activate
+   ```
 
-### Running the App
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
---> To run the Notes App, we use :
-```bash
-python manage.py runserver
-```
+## Usage
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+1. Start the Django development server:
+   ```bash
+   python manage.py runserver
+   ```
 
-#
+2. Access the app in your web browser at http://127.0.0.1:8000/
 
-### App Preview :
+## Contributing
 
-<div align="center">
-<img width="50%" src="https://www.linkpicture.com/q/Notes.png"/>
-</div>
+Contributions are welcome! If you find any issues or want to add new features, please create a pull request.
 
-#
+
